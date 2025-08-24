@@ -1,28 +1,15 @@
-# Python cache
+# Ignore virtual environment
+venv/
+
+# Ignore raw data
+data/
+
+# Ignore Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pkl
 
-# Virtual environment
-venv/
-.env
-.venv/
-
-# System files
+# Ignore system files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Jupyter Notebook checkpoints (if any)
-.ipynb_checkpoints/
-
-# Large datasets (keep only sample data)
-data/*
-!data/sample.csv  
-
-models/*
-!models/README.md  
